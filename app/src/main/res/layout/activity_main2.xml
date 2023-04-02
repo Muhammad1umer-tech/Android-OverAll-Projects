@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/screen_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decimal to Binary"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/myNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="12"
+        android:layout_gravity="center"
+        android:hint="Enter Your Decimal Number"
+        android:textColorHint="#fff"
+        android:inputType="numberDecimal"
+        android:textSize="30sp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnC"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:background="@drawable/screen_bg"
+        />
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="Binary = "
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+
+</LinearLayout>
